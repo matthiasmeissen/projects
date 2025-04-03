@@ -2,6 +2,9 @@
   "projects": {
     "c-playgrounds": {
       "name": "C Playgrounds",
+      "description": "Learn the C programming language",
+      "reference": "https://github.com/matthiasmeissen/c-playgrounds",
+      "tags": ["programming", "c"],
       "activities": [
         { "date": "2025-03-29" },
         { "date": "2025-03-30" },
