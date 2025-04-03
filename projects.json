@@ -1,0 +1,11 @@
+{
+    "projects": {
+        "glsl-playgrounds": {
+            "name": "GLSL Playgrounds",
+            "activities": [
+                {"date": "2022-06-16"}
+            ]
+        }
+
+    }
+}
