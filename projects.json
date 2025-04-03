@@ -157,6 +157,9 @@
     },
     "webaudio-playgrounds": {
       "name": "Webaudio Playgrounds",
+      "description": "Learn Webaudio",
+      "reference": "https://github.com/matthiasmeissen/webaudio-playgrounds",
+      "tags": ["webaudio", "faust"],
       "activities": [
         { "date": "2023-03-24" },
         { "date": "2023-03-25" },
