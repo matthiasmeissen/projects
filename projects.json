@@ -156,6 +156,28 @@
             { "date": "2025-03-14" }
         ]
     },
+    "textile-playgrounds": {
+      "name": "Textile Playgrounds",
+      "description": "Learn to work with textiles",
+      "reference": "https://github.com/matthiasmeissen/textile-playgrounds",
+      "tags": ["textile", "sewing"],
+      "activities": [
+        { "date": "2025-02-22" },
+        { "date": "2025-02-23" },
+        { "date": "2025-02-24" },
+        { "date": "2025-02-25" },
+        { "date": "2025-02-26" },
+        { "date": "2025-02-27" },
+        { "date": "2025-03-01" },
+        { "date": "2025-03-02" },
+        { "date": "2025-03-04" },
+        { "date": "2025-03-06" },
+        { "date": "2025-03-08" },
+        { "date": "2025-03-11" },
+        { "date": "2025-03-13" },
+        { "date": "2025-03-17" }
+      ]
+    },
     "webaudio-playgrounds": {
       "name": "Webaudio Playgrounds",
       "description": "Learn Webaudio",
