@@ -23,6 +23,15 @@
         { "date": "2025-04-12" }
       ]
     },
+    "electronics-playgrounds": {
+      "name": "Electronics Playgrounds",
+      "description": "Learn hardware electronics",
+      "reference": "https://github.com/matthiasmeissen/electronics-playgrounds",
+      "tags": ["hardware", "electronics", "audio"],
+      "activities": [
+        { "date": "2024-10-03" }
+      ]
+    },
     "glsl-playgrounds": {
       "name": "GLSL Playgrounds",
       "description": "Learn about GLSL Shaders",
