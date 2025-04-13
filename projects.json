@@ -368,6 +368,16 @@
         { "date": "2025-03-17" }
       ]
     },
+    "vcv-playgrounds": {
+      "name": "VCV Playgrounds",
+      "description": "Learn to build vcv rack modules",
+      "reference": "https://github.com/matthiasmeissen/vcv-playgrounds",
+      "tags": ["vcv rack", "modular synth", "audio"],
+      "activities": [
+        { "date": "2025-03-15" },
+        { "date": "2025-03-16" }
+      ]
+    },
     "webaudio-playgrounds": {
       "name": "Webaudio Playgrounds",
       "description": "Learn Webaudio",
