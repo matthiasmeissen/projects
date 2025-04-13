@@ -296,6 +296,18 @@
         { "date": "2025-04-06" }
       ]
     },
+    "godot-playgrounds": {
+      "name": "Godot Playgrounds",
+      "description": "Learn the Godot game engine",
+      "reference": "https://github.com/matthiasmeissen/godot-playgrounds",
+      "tags": ["godot", "game engine"],
+      "activities": [
+        { "date": "2025-02-01" },
+        { "date": "2025-02-15" },
+        { "date": "2025-03-05" },
+        { "date": "2025-03-09" }
+      ]
+    },
     "model-print-series": {
       "name": "Model Print Series",
       "description": "Learn 3D printing",
