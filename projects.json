@@ -502,6 +502,22 @@
         { "date": "2025-04-13" }
       ]
     },
+    "openrndr-playgrounds": {
+      "name": "openrndr Playgrounds",
+      "description": "Learn how to use openrndr",
+      "reference": "https://github.com/matthiasmeissen/openrndr-playgrounds",
+      "tags": ["programming", "openrndr", "kotlin"],
+      "activities": [
+        { "date": "2024-05-19" },
+        { "date": "2024-05-20" },
+        { "date": "2024-05-21" },
+        { "date": "2024-05-22" },
+        { "date": "2024-05-25" },
+        { "date": "2024-05-26" },
+        { "date": "2024-05-29" },
+        { "date": "2024-05-31" }
+      ]
+    },
     "textile-playgrounds": {
       "name": "Textile Playgrounds",
       "description": "Learn to work with textiles",
