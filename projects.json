@@ -243,6 +243,18 @@
         { "date": "2025-03-30" }
       ]
     },
+    "drawing-a2-series": {
+      "name": "Drawing A2 Series",
+      "description": "Draw A2 images",
+      "reference": "Physical",
+      "tags": ["drawing", "a2", "marker"],
+      "activities": [
+        { "date": "2025-01-19" },
+        { "date": "2025-02-22" },
+        { "date": "2025-03-09" },
+        { "date": "2025-04-12" }
+      ]
+    },
     "electronics-playgrounds": {
       "name": "Electronics Playgrounds",
       "description": "Learn hardware electronics",
