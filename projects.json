@@ -1,5 +1,31 @@
 {
   "projects": {
+    "100-days-of-swift": {
+      "name": "100 Days of Swift",
+      "description": "Learn the swift programming language",
+      "reference": "https://github.com/matthiasmeissen/100-days-of-swift",
+      "tags": ["programming", "swift"],
+      "activities": [
+        { "date": "2024-03-16" },
+        { "date": "2024-03-17" },
+        { "date": "2024-03-18" },
+        { "date": "2024-03-19" },
+        { "date": "2024-03-20" },
+        { "date": "2024-03-21" },
+        { "date": "2024-03-22" },
+        { "date": "2024-03-23" },
+        { "date": "2024-03-24" },
+        { "date": "2024-03-25" },
+        { "date": "2024-03-27" },
+        { "date": "2024-03-30" },
+        { "date": "2024-03-31" },
+        { "date": "2024-04-01" },
+        { "date": "2024-04-05" },
+        { "date": "2024-06-03" },
+        { "date": "2024-06-04" },
+        { "date": "2024-06-05" }
+      ]
+    },
     "750-words": {
       "name": "750 Words",
       "description": "Learn writing",
