@@ -379,7 +379,7 @@
     "glsl-playgrounds": {
       "name": "GLSL Playgrounds",
       "description": "Learn about GLSL Shaders",
-      "reference": "https://github.com/matthiasmeissen/glsl-playgrounds",
+      "reference": ["https://github.com/matthiasmeissen/glsl-playgrounds", "https://github.com/matthiasmeissen/glsl-playgrounds-2"],
       "tags": ["shader", "glsl"],
       "activities": [
         { "date": "2022-06-16" },
@@ -480,7 +480,9 @@
         { "date": "2025-04-03" },
         { "date": "2025-04-04" },
         { "date": "2025-04-05" },
-        { "date": "2025-04-06" }
+        { "date": "2025-04-06" },
+        { "date": "2025-04-18" },
+        { "date": "2025-04-19" }
       ]
     },
     "godot-playgrounds": {
