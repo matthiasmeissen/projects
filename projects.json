@@ -162,6 +162,20 @@
         { "date": "2025-04-18" }
       ]
     },
+    "csound-playgrounds": {
+      "name": "Csound Playgrounds",
+      "description": "Learn to use csound",
+      "reference": "https://github.com/matthiasmeissen/csound-playgrounds",
+      "tags": ["programming", "csound", "audio"],
+      "activities": [
+        { "date": "2023-09-05" },
+        { "date": "2023-09-06" },
+        { "date": "2023-09-07" },
+        { "date": "2023-09-08" },
+        { "date": "2023-09-09" },
+        { "date": "2023-09-10" }
+      ]
+    },
     "drawing-a4-series": {
       "name": "Drawing A4 Series",
       "description": "Draw A4 images",
