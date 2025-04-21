@@ -585,6 +585,27 @@
         { "date": "2024-05-31" }
       ]
     },
+    "pixel-series": {
+      "name": "Pixel Series",
+      "description": "Learn to make pixel art",
+      "reference": "Dropbox",
+      "tags": ["drawing", "pixel art"],
+      "activities": [
+        { "date": "2025-01-28" },
+        { "date": "2025-01-29" },
+        { "date": "2025-01-30" },
+        { "date": "2025-01-31" },
+        { "date": "2025-02-01" },
+        { "date": "2025-02-02" },
+        { "date": "2025-02-03" },
+        { "date": "2025-02-04" },
+        { "date": "2025-02-05" },
+        { "date": "2025-02-06" },
+        { "date": "2025-02-07" },
+        { "date": "2025-02-08" },
+        { "date": "2025-02-09" }
+      ]
+    },
     "textile-playgrounds": {
       "name": "Textile Playgrounds",
       "description": "Learn to work with textiles",
