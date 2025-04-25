@@ -355,6 +355,18 @@
         { "date": "2025-04-12" }
       ]
     },
+    "drawing-color-series": {
+      "name": "Drawing Color Series",
+      "description": "Draw color images",
+      "reference": "Dropbox",
+      "tags": ["drawing", "digital", "marker", "procreate"],
+      "activities": [
+        { "date": "2025-04-20" },
+        { "date": "2025-04-21" },
+        { "date": "2025-04-22" },
+        { "date": "2025-04-25" }
+      ]
+    },
     "electronics-playgrounds": {
       "name": "Electronics Playgrounds",
       "description": "Learn hardware electronics",
