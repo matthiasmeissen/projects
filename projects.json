@@ -1569,7 +1569,7 @@
         { "date": "2025-04-13" }
       ]
     },
-    "openrndr-playgrounds": {
+    "Openrndr-playgrounds": {
       "name": "openrndr Playgrounds",
       "description": "Learn how to use openrndr",
       "reference": "https://github.com/matthiasmeissen/openrndr-playgrounds",
@@ -1728,6 +1728,27 @@
         { "date": "2021-09-11" },
         { "date": "2021-09-12" },
         { "date": "2021-09-15" }
+      ]
+    },
+    "sound-sessions": {
+      "name": "Sound Sessions",
+      "description": "Learn to make music",
+      "reference": "Dropbox",
+      "tags": ["audio", "ableton"],
+      "activities": [
+        { "date": "2024-02-11" },
+        { "date": "2024-02-12" },
+        { "date": "2024-02-14" },
+        { "date": "2024-02-21" },
+        { "date": "2024-02-25" },
+        { "date": "2024-03-01" },
+        { "date": "2024-03-04" },
+        { "date": "2024-03-05" },
+        { "date": "2024-03-08" },
+        { "date": "2024-03-10" },
+        { "date": "2024-03-12" },
+        { "date": "2024-03-19" },
+        { "date": "2024-04-07" }
       ]
     },
     "textile-playgrounds": {
