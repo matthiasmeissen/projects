@@ -1360,8 +1360,29 @@
         { "date": "2025-03-09" }
       ]
     },
-    "lettering-vr-series": {
-      "name": "Lettering VR Series",
+    "lettering-model-series": {
+      "name": "Lettering Model Series",
+      "description": "Learn to model 3d letters",
+      "reference": "Dropbox",
+      "tags": ["3d", "lettering", "cinema 4d"],
+      "activities": [
+        { "date": "2018-04-03" },
+        { "date": "2018-04-04" },
+        { "date": "2018-04-06" },
+        { "date": "2018-04-08" },
+        { "date": "2018-04-09" },
+        { "date": "2018-04-12" },
+        { "date": "2018-04-13" },
+        { "date": "2018-04-15" },
+        { "date": "2018-04-17" },
+        { "date": "2018-04-26" },
+        { "date": "2018-04-28" },
+        { "date": "2018-05-02" },
+        { "date": "2018-05-06" }
+      ]
+    },
+    "lettering-series": {
+      "name": "Lettering Series",
       "description": "Learn to sculpt 3d letters",
       "reference": "Dropbox",
       "tags": ["3d", "lettering", "vr", "oculus medium"],
