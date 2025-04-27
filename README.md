@@ -1,3 +1,36 @@
 # Projects
 
 A collection of all projects I do.
+
+```
+Animation Series        : ████████████████████████████████████████████████████████████ (763)
+GLSL Playgrounds        : ██████████▋ (107)
+Drawing A4 Series       : ██████████▍ (104)
+750 Words               : █████████▉ (99)
+Meta Sounds             : █████████▉ (99)
+Sound Series            : █████████▉ (99)
+Three Playgrounds       : █████████▉ (99)
+Web Playground          : █████████▉ (99)
+Visual System           : █████████▊ (98)
+Electronics Playgrounds : █████ (50)
+Unreal Series           : ████▉ (49)
+Webaudio Playgrounds    : ███▋ (37)
+C Playgrounds           : ███ (30)
+Model Print Series      : ███ (30)
+Audio Series            : ██▋ (26)
+Figma Plugins           : ██▍ (24)
+Lettering Series        : ██▏ (21)
+100 Days of Swift       : █▊ (18)
+Textile Playgrounds     : █▍ (14)
+Lettering Model Series  : █▍ (13)
+Pixel Series            : █▍ (13)
+Sculpt Series           : ▉ (9)
+openrndr Playgrounds    : ▊ (8)
+Cmajor Playgrounds      : ▋ (6)
+Csound Playgrounds      : ▋ (6)
+Model Series            : ▋ (6)
+Drawing A2 Series       : ▍ (4)
+Drawing Color Series    : ▍ (4)
+Godot Playgrounds       : ▍ (4)
+VCV Playgrounds         : ▎ (2)
+```
