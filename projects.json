@@ -1517,6 +1517,20 @@
         { "date": "2022-06-22" }
       ]
     },
+    "model-series": {
+      "name": "Model Series",
+      "description": "Learn to model and render 3d models",
+      "reference": "Dropbox",
+      "tags": ["3d", "gravity sketch", "blender"],
+      "activities": [
+        { "date": "2023-01-09" },
+        { "date": "2023-01-10" },
+        { "date": "2023-01-11" },
+        { "date": "2023-01-13" },
+        { "date": "2023-01-14" },
+        { "date": "2023-01-15" }
+      ]
+    },
     "model-print-series": {
       "name": "Model Print Series",
       "description": "Learn 3D printing",
@@ -1590,6 +1604,23 @@
         { "date": "2025-02-07" },
         { "date": "2025-02-08" },
         { "date": "2025-02-09" }
+      ]
+    },
+    "sculpt-series": {
+      "name": "Sculpt Series",
+      "description": "Learn to sculpt and render 3d models",
+      "reference": "Dropbox",
+      "tags": ["3d", "nomad sculpt", "blender"],
+      "activities": [
+        { "date": "2023-03-06" },
+        { "date": "2023-03-07" },
+        { "date": "2023-03-08" },
+        { "date": "2023-03-09" },
+        { "date": "2023-03-11" },
+        { "date": "2023-03-12" },
+        { "date": "2023-05-03" },
+        { "date": "2023-05-06" },
+        { "date": "2023-05-07" }
       ]
     },
     "sound-series": {
