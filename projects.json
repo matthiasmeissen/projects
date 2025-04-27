@@ -1360,6 +1360,35 @@
         { "date": "2025-03-09" }
       ]
     },
+    "lettering-vr-series": {
+      "name": "Lettering VR Series",
+      "description": "Learn to sculpt 3d letters",
+      "reference": "Dropbox",
+      "tags": ["3d", "lettering", "vr", "oculus medium"],
+      "activities": [
+        { "date": "2017-09-02" },
+        { "date": "2017-09-03" },
+        { "date": "2017-09-05" },
+        { "date": "2017-09-09" },
+        { "date": "2017-09-10" },
+        { "date": "2017-09-13" },
+        { "date": "2017-09-16" },
+        { "date": "2017-09-17" },
+        { "date": "2017-10-08" },
+        { "date": "2017-11-13" },
+        { "date": "2017-11-14" },
+        { "date": "2017-11-15" },
+        { "date": "2017-12-09" },
+        { "date": "2017-12-11" },
+        { "date": "2017-12-30" },
+        { "date": "2017-12-31" },
+        { "date": "2018-01-01" },
+        { "date": "2018-01-04" },
+        { "date": "2018-01-07" },
+        { "date": "2018-01-14" },
+        { "date": "2018-02-18" }
+      ]
+    },
     "model-print-series": {
       "name": "Model Print Series",
       "description": "Learn 3D printing",
