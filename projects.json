@@ -975,7 +975,12 @@
         { "date": "2025-04-26" },
         { "date": "2025-04-27" },
         { "date": "2025-04-28" },
-        { "date": "2025-04-29" }
+        { "date": "2025-04-29" },
+        { "date": "2025-04-30" },
+        { "date": "2025-05-01" },
+        { "date": "2025-05-02" },
+        { "date": "2025-05-03" },
+        { "date": "2025-05-04" }
       ]
     },
     "cmajor-playgrounds": {
@@ -1115,7 +1120,8 @@
         { "date": "2025-02-15" },
         { "date": "2025-02-28" },
         { "date": "2025-03-16" },
-        { "date": "2025-03-30" }
+        { "date": "2025-03-30" },
+        { "date": "2025-05-04" }
       ]
     },
     "drawing-a2-series": {
@@ -1140,7 +1146,8 @@
         { "date": "2025-04-21" },
         { "date": "2025-04-22" },
         { "date": "2025-04-25" },
-        { "date": "2025-04-29" }
+        { "date": "2025-04-29" },
+        { "date": "2025-05-02" }
       ]
     },
     "electronics-playgrounds": {
@@ -1570,11 +1577,13 @@
         { "date": "2025-03-12" },
         { "date": "2025-03-14" },
         { "date": "2025-04-13" },
-        { "date": "2025-04-28" }
+        { "date": "2025-04-28" },
+        { "date": "2025-04-02" },
+        { "date": "2025-05-04" }
       ]
     },
-    "Openrndr-playgrounds": {
-      "name": "openrndr Playgrounds",
+    "openrndr-playgrounds": {
+      "name": "Openrndr Playgrounds",
       "description": "Learn how to use openrndr",
       "reference": "https://github.com/matthiasmeissen/openrndr-playgrounds",
       "tags": ["programming", "openrndr", "kotlin"],
