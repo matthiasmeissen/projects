@@ -4,7 +4,7 @@ A collection of all projects I do.
 
 ```
 Animation Series        : ████████████████████████████████████████████████████████████ (763)
-GLSL Playgrounds        : ███████████▍ (114)
+GLSL Playgrounds        : ███████████▌ (115)
 Drawing A4 Series       : ██████████▌ (105)
 750 Words               : █████████▉ (99)
 Meta Sounds             : █████████▉ (99)
@@ -12,7 +12,7 @@ Sound Series            : █████████▉ (99)
 Three Playgrounds       : █████████▉ (99)
 Web Playground          : █████████▉ (99)
 Visual System           : █████████▊ (98)
-C Playgrounds           : █████▏ (51)
+C Playgrounds           : █████▋ (57)
 Electronics Playgrounds : █████ (50)
 Unreal Series           : ████▉ (49)
 Model Print Series      : ███▊ (38)
