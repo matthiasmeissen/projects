@@ -29,7 +29,7 @@
     "750-words": {
       "name": "750 Words",
       "description": "Learn writing",
-      "reference": "https://github.com/matthiasmeissen/750-words",
+      "reference": ["https://github.com/matthiasmeissen/750-words", "https://github.com/matthiasmeissen/750-words-2"],
       "tags": ["writing"],
       "activities": [
         { "date": "2024-05-29" },
@@ -130,7 +130,8 @@
         { "date": "2024-10-12" },
         { "date": "2024-10-13" },
         { "date": "2024-10-14" },
-        { "date": "2024-10-19" }
+        { "date": "2024-10-19" },
+        { "date": "2025-05-29" }
       ]
     },
     "animation-series": {
@@ -1004,7 +1005,8 @@
         { "date": "2025-05-25" },
         { "date": "2025-05-26" },
         { "date": "2025-05-27" },
-        { "date": "2025-05-28" }
+        { "date": "2025-05-28" },
+        { "date": "2025-05-29" }
       ]
     },
     "cmajor-playgrounds": {
@@ -1395,7 +1397,8 @@
         { "date": "2025-05-15" },
         { "date": "2025-05-17" },
         { "date": "2025-05-24" },
-        { "date": "2025-05-26" }
+        { "date": "2025-05-26" },
+        { "date": "2025-05-29" }
       ]
     },
     "godot-playgrounds": {
