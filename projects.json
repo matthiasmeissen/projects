@@ -942,6 +942,15 @@
         { "date": "2019-08-03" }
       ]
     },
+    "comfy-playgrounds": {
+      "name": "Comfy Playgrounds",
+      "description": "Learn how to use comfy ui and generate images",
+      "reference": "https://github.com/matthiasmeissen/comfy-playgrounds",
+      "tags": ["ai", "comfy ui"],
+      "activities": [
+        { "date": "2025-06-09" }
+      ]
+    },
     "c-playgrounds": {
       "name": "C Playgrounds",
       "description": "Learn the C programming language",
