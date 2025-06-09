@@ -33,5 +33,6 @@ Csound Playgrounds      : ▋ (6)
 Model Series            : ▋ (6)
 Drawing A2 Series       : ▌ (5)
 Godot Playgrounds       : ▍ (4)
+Plotter Playgrounds     : ▎ (2)
 VCV Playgrounds         : ▎ (2)
 ```
