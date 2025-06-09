@@ -1680,6 +1680,16 @@
         { "date": "2025-02-09" }
       ]
     },
+    "plotter-playgrounds": {
+      "name": "Plotter Playgrounds",
+      "description": "Learn how to use a pen plotter",
+      "reference": "https://github.com/matthiasmeissen/plotter-playgrounds",
+      "tags": ["svg", "pen plotter"],
+      "activities": [
+        { "date": "2025-05-22" },
+        { "date": "2025-05-23" }
+      ]
+    },
     "sculpt-series": {
       "name": "Sculpt Series",
       "description": "Learn to sculpt and render 3d models",
