@@ -2,7 +2,7 @@
 
 A collection of all projects I do.
 
-```text
+```
 Animation Series          : ████████████████████████████████████████████████████████████ (764)
 GLSL Playgrounds          : █████████████▊ (138)
 750 Words                 : ███████████▉ (119)
