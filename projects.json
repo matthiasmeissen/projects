@@ -1143,6 +1143,35 @@
         { "date": "2025-07-09" }
       ]
     },
+    "clocked-modulator": {
+      "name": "Clocked Modulator",
+      "description": "Clocked modulation midi controller on a Raspberry Pi Pico 2, built in embedded Rust",
+      "reference": "https://github.com/matthiasmeissen/clocked-modulator",
+      "tags": ["embedded", "rust", "rp2350", "audio", "midi"],
+      "activities": [
+        { "date": "2026-02-06" },
+        { "date": "2026-02-07" },
+        { "date": "2026-02-08" },
+        { "date": "2026-02-13" },
+        { "date": "2026-02-14" },
+        { "date": "2026-02-15" },
+        { "date": "2026-02-20" },
+        { "date": "2026-02-21" },
+        { "date": "2026-02-22" },
+        { "date": "2026-02-27" },
+        { "date": "2026-02-28" },
+        { "date": "2026-03-01" },
+        { "date": "2026-03-06" },
+        { "date": "2026-03-07" },
+        { "date": "2026-03-13" },
+        { "date": "2026-03-14" },
+        { "date": "2026-03-15" },
+        { "date": "2026-03-21" },
+        { "date": "2026-03-22" },
+        { "date": "2026-03-27" },
+        { "date": "2026-03-28" }
+      ]
+    },
     "cmajor-playgrounds": {
       "name": "Cmajor Playgrounds",
       "description": "Learn how to use csound",
