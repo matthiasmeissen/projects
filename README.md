@@ -6,7 +6,7 @@ A collection of all projects I do.
 Animation Series          : ████████████████████████████████████████████████████████████ (764)
 GLSL Playgrounds          : █████████████▊ (138)
 750 Words                 : ████████████▋ (127)
-Drawing A4 Series         : ██████████▋ (107)
+Drawing A4 Series         : ██████████▊ (108)
 C Playgrounds             : █████████▉ (99)
 Meta Sounds               : █████████▉ (99)
 Rust Playgrounds          : █████████▉ (99)
