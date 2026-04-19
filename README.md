@@ -2,6 +2,10 @@
 
 A collection of all projects I do.
 
+## Activity per project
+
+<!-- chart:overall -->
+_Each █ ≈ 10 activities._
 ```
 Animation Series          : ████████████████████████████████████████████████████████████ (764)
 GLSL Playgrounds          : █████████████▊ (138)
@@ -45,3 +49,126 @@ Modular Sessions          : ▎ (2)
 Plotter Playgrounds       : ▎ (2)
 VCV Playgrounds           : ▎ (2)
 ```
+<!-- /chart:overall -->
+
+## Activity by category
+
+<!-- chart:by-category -->
+_Each █ ≈ 34 activities._
+```
+computation : ██████████████████████████████████████████████████████████▋ (1993)
+making      : ██████████▋ (363)
+device      : ██ (68)
+```
+<!-- /chart:by-category -->
+
+## Activity by tag
+
+<!-- chart:by-tag -->
+_Each █ ≈ 24 activities._
+```
+visual               : ███████████████████████████████████████████████████████████▊ (1436)
+touchdesigner        : ███████████████████████████████████▉ (862)
+animation            : ███████████████████████████████▊ (764)
+programming-language : ████████████████▌ (397)
+audio                : ██████████████▋ (352)
+synthesis            : ███████████▌ (275)
+rust                 : ██████████▊ (258)
+javascript           : ████████▌ (204)
+3d                   : ████████▎ (197)
+drawing              : ██████▏ (147)
+glsl                 : █████▊ (138)
+shader               : █████▊ (138)
+electronics          : █████▍ (127)
+text                 : █████▍ (127)
+writing              : █████▍ (127)
+marker               : █████ (120)
+a4                   : ████▌ (108)
+c                    : ████▏ (99)
+css                  : ████▏ (99)
+digitone             : ████▏ (99)
+html                 : ████▏ (99)
+metasynth            : ████▏ (99)
+three-js             : ████▏ (99)
+web                  : ████▏ (99)
+vj                   : ████▏ (98)
+embedded             : ████▏ (97)
+micro-bit            : ███▎ (76)
+cad                  : ███▏ (75)
+object               : ███▏ (75)
+pcb                  : ██▊ (68)
+dsp                  : ██▋ (64)
+3d-printing          : ██▍ (57)
+freecad              : ██▍ (57)
+grasshopper          : ██▍ (57)
+houdini              : ██▍ (57)
+parametric           : ██▍ (57)
+rhino                : ██▍ (57)
+circuit              : ██▏ (51)
+unreal               : ██▏ (49)
+enclosure            : █▉ (47)
+raspberry-pi         : █▉ (47)
+faust                : █▌ (37)
+lettering            : █▍ (34)
+figma                : █▏ (26)
+tooling              : █▏ (26)
+typescript           : █▏ (26)
+unity                : █▏ (26)
+easyeda              : ▉ (21)
+embassy              : ▉ (21)
+midi                 : ▉ (21)
+oculus-medium        : ▉ (21)
+rp2350               : ▉ (21)
+vr                   : ▉ (21)
+fusion-360           : ▊ (18)
+ios                  : ▊ (18)
+swift                : ▊ (18)
+blender              : ▋ (15)
+sewing               : ▋ (14)
+textile              : ▋ (14)
+ableton              : ▌ (13)
+aseprite             : ▌ (13)
+cinema-4d            : ▌ (13)
+music                : ▌ (13)
+pixel-art            : ▌ (13)
+a2                   : ▌ (12)
+procreate            : ▌ (12)
+ai-image             : ▌ (11)
+comfyui              : ▌ (11)
+learning             : ▌ (11)
+nomad-sculpt         : ▍ (9)
+kotlin               : ▍ (8)
+openrndr             : ▍ (8)
+cmajor               : ▎ (6)
+csound               : ▎ (6)
+gravity-sketch       : ▎ (6)
+webaudio             : ▎ (6)
+game                 : ▎ (4)
+godot                : ▎ (4)
+cpp                  : ▏ (2)
+eurorack             : ▏ (2)
+modular              : ▏ (2)
+modular-synth        : ▏ (2)
+plotter              : ▏ (2)
+svg                  : ▏ (2)
+vcv                  : ▏ (2)
+```
+<!-- /chart:by-tag -->
+
+## Activity by year
+
+<!-- chart:by-year -->
+_Each █ ≈ 10 activities._
+```
+2017       : █▋ (16)
+2018       : ████████████████████▋ (207)
+2019       : ████████████████████ (200)
+2020       : ████████████▎ (122)
+2021       : █████████████████████████▏ (251)
+2022       : █████████████████████████████████████████▍ (414)
+2023       : ███████████████████████▍ (234)
+2024       : █████████████████████████████████▍ (334)
+2025       : ██████████████████████████████████████████████████████▋ (547)
+2026 (YTD) : █████████▉ (99)
+```
+<!-- /chart:by-year -->
