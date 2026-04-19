@@ -41,6 +41,7 @@ Csound Playgrounds        : ▋ (6)
 Model Series              : ▋ (6)
 Webaudio Playgrounds      : ▋ (6)
 Godot Playgrounds         : ▍ (4)
+Modular Sessions          : ▎ (2)
 Plotter Playgrounds       : ▎ (2)
 VCV Playgrounds           : ▎ (2)
 ```

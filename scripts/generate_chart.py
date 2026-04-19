@@ -1,110 +1,80 @@
 import json
 import math
+import re
+from pathlib import Path
 
-# --- Configuration ---
-JSON_FILE = '../projects.json'
-SCALE = 10  # How many activities each full block represents
-MAX_BAR_WIDTH = 60  # Maximum number of characters for the bar
-OUTPUT_FILE = None # Set to a filename like 'chart.md' to write to a file, None to print to console
-# --- End Configuration ---
+SCRIPT_DIR = Path(__file__).resolve().parent
+JSON_FILE = SCRIPT_DIR.parent / "projects.json"
+README_FILE = SCRIPT_DIR.parent / "README.md"
+SCALE = 10
+MAX_BAR_WIDTH = 60
 
-# Characters for fractional blocks (optional, set to "" for none)
-# Represents 1/10th increments up to 9/10ths
 FRACTIONAL_BLOCKS = ["", "▏", "▎", "▍", "▌", "▋", "▊", "▉"]
-# Or use just a single character for any fraction:
-# FRACTIONAL_BLOCKS = ["", "▌", "▌", "▌", "▌", "▌", "▌", "▌"]
 
 
 def generate_bar(count, scale, max_width):
-    """Generates the text bar string for a given count."""
     if count <= 0:
         return ""
 
-    full_blocks_exact = count / scale
-    num_full_blocks = math.floor(full_blocks_exact)
+    num_full_blocks = math.floor(count / scale)
     remainder = count % scale
 
-    # Apply max width limit
     display_blocks = min(num_full_blocks, max_width)
     bar = "█" * display_blocks
 
-    # Add fractional block if needed and space permits
     if display_blocks < max_width and remainder > 0 and FRACTIONAL_BLOCKS:
-         # Calculate index for fractional blocks (adjusting for scale)
-        fraction_index = math.ceil((remainder / scale) * (len(FRACTIONAL_BLOCKS) -1))
-        # Ensure index is valid
+        fraction_index = math.ceil((remainder / scale) * (len(FRACTIONAL_BLOCKS) - 1))
         fraction_index = min(max(1, fraction_index), len(FRACTIONAL_BLOCKS) - 1)
         bar += FRACTIONAL_BLOCKS[fraction_index]
-    elif num_full_blocks > max_width:
-        # Indicate truncation if bar was capped
-        # You could add a specific character like '>' or '...'
-        pass # Keep it simple for now
 
     return bar
 
-def main():
-    """Reads JSON, processes data, and generates Markdown."""
-    try:
-        with open(JSON_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: File not found at '{JSON_FILE}'")
-        return
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from '{JSON_FILE}'")
-        return
 
-    projects = data.get('projects', {})
+def build_chart(projects):
+    entries = []
+    for key, details in projects.items():
+        name = details.get("name", key)
+        activities = details.get("activities", [])
+        count = len(activities) if isinstance(activities, list) else 0
+        entries.append({"name": name, "count": count})
+
+    entries.sort(key=lambda x: x["count"], reverse=True)
+    max_name_len = max((len(e["name"]) for e in entries), default=0)
+
+    lines = []
+    for e in entries:
+        bar = generate_bar(e["count"], SCALE, MAX_BAR_WIDTH)
+        lines.append(f"{e['name']:<{max_name_len}} : {bar} ({e['count']})")
+    return "\n".join(lines)
+
+
+def replace_first_code_block(readme_text, new_body):
+    pattern = re.compile(r"(^|\n)(```[^\n]*\n)(.*?)(\n```)", re.DOTALL)
+    match = pattern.search(readme_text)
+    if not match:
+        raise RuntimeError("No fenced code block found in README.md")
+    start, end = match.span(3)
+    return readme_text[:start] + new_body + readme_text[end:]
+
+
+def main():
+    data = json.loads(JSON_FILE.read_text(encoding="utf-8"))
+    projects = data.get("projects", {})
     if not projects:
         print("No projects found in the JSON data.")
         return
 
-    project_activities = []
-    for key, details in projects.items():
-        name = details.get('name', key) # Use key as fallback name
-        activities = details.get('activities', [])
-        count = len(activities) if isinstance(activities, list) else 0
-        project_activities.append({'name': name, 'count': count})
+    chart = build_chart(projects)
+    readme = README_FILE.read_text(encoding="utf-8")
+    updated = replace_first_code_block(readme, chart)
 
-    # Sort projects by activity count descending
-    project_activities.sort(key=lambda x: x['count'], reverse=True)
+    if updated == readme:
+        print("README.md already up to date.")
+        return
 
-    # Find max name length for alignment
-    max_name_len = 0
-    if project_activities:
-        max_name_len = max(len(p['name']) for p in project_activities)
+    README_FILE.write_text(updated, encoding="utf-8")
+    print(f"Updated chart in {README_FILE}")
 
-    # --- Generate Markdown Output ---
-    markdown_lines = []
-    markdown_lines.append("# Project Activity - Visualized")
-    markdown_lines.append("")
-    markdown_lines.append(f"Each `█` represents approximately **{SCALE}** activities. Maximum bar length: **{MAX_BAR_WIDTH}** characters.")
-    markdown_lines.append("")
-    markdown_lines.append("```text")
-
-    for project in project_activities:
-        name = project['name']
-        count = project['count']
-        bar = generate_bar(count, SCALE, MAX_BAR_WIDTH)
-        # Format: Name (left-aligned) : Bar (Count)
-        line = f"{name:<{max_name_len}} : {bar} ({count})"
-        markdown_lines.append(line)
-
-    markdown_lines.append("```")
-    markdown_lines.append(f"\n*(Generated from `{JSON_FILE}`)*")
-
-    # --- Output ---
-    final_markdown = "\n".join(markdown_lines)
-
-    if OUTPUT_FILE:
-        try:
-            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                f.write(final_markdown)
-            print(f"Markdown chart successfully written to '{OUTPUT_FILE}'")
-        except IOError as e:
-            print(f"Error writing to file '{OUTPUT_FILE}': {e}")
-    else:
-        print(final_markdown)
 
 if __name__ == "__main__":
     main()
