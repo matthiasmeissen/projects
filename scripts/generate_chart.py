@@ -45,14 +45,13 @@ def load_projects():
 
 def render_rows(rows, scale):
     if not rows:
-        return "", ""
+        return ""
     max_label_len = max(len(label) for label, _ in rows)
     lines = [
         f"{label:<{max_label_len}} : {generate_bar(count, scale, MAX_BAR_WIDTH)} ({count})"
         for label, count in rows
     ]
-    subtitle = f"_Each █ ≈ {scale} {'activity' if scale == 1 else 'activities'}._"
-    return subtitle, "\n".join(lines)
+    return "\n".join(lines)
 
 
 def render_overall(projects):
@@ -111,12 +110,12 @@ CHARTS = {
 }
 
 
-def replace_section(readme_text, chart_id, subtitle, body):
+def replace_section(readme_text, chart_id, body):
     pattern = re.compile(
         rf"(<!-- chart:{re.escape(chart_id)} -->)(.*?)(<!-- /chart:{re.escape(chart_id)} -->)",
         re.DOTALL,
     )
-    replacement = f"\\1\n{subtitle}\n```\n{body}\n```\n\\3"
+    replacement = f"\\1\n```\n{body}\n```\n\\3"
     new_text, n = pattern.subn(replacement, readme_text)
     return new_text, n > 0
 
@@ -130,11 +129,11 @@ def main():
     readme = README_FILE.read_text(encoding="utf-8")
     updated = readme
     for chart_id, renderer in CHARTS.items():
-        subtitle, body = renderer(projects)
+        body = renderer(projects)
         if not body:
             print(f"skipped: {chart_id} (no data)")
             continue
-        new_text, found = replace_section(updated, chart_id, subtitle, body)
+        new_text, found = replace_section(updated, chart_id, body)
         if not found:
             print(f"skipped: {chart_id} (marker not found)")
             continue

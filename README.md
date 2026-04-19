@@ -5,7 +5,6 @@ A collection of all projects I do.
 ## Activity per project
 
 <!-- chart:overall -->
-_Each █ ≈ 10 activities._
 ```
 Animation Series          : ████████████████████████████████████████████████████████████ (764)
 GLSL Playgrounds          : █████████████▊ (138)
@@ -54,7 +53,6 @@ VCV Playgrounds           : ▎ (2)
 ## Activity by category
 
 <!-- chart:by-category -->
-_Each █ ≈ 34 activities._
 ```
 computation : ██████████████████████████████████████████████████████████▋ (1993)
 making      : ██████████▋ (363)
@@ -65,7 +63,6 @@ device      : ██ (68)
 ## Activity by tag
 
 <!-- chart:by-tag -->
-_Each █ ≈ 24 activities._
 ```
 visual         : ███████████████████████████████████████████████████████████▊ (1436)
 touchdesigner  : ███████████████████████████████████▉ (862)
@@ -134,7 +131,6 @@ vcv            : ▏ (2)
 ## Activity by year
 
 <!-- chart:by-year -->
-_Each █ ≈ 10 activities._
 ```
 2017       : █▋ (16)
 2018       : ████████████████████▋ (207)
