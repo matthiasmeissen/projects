@@ -6,7 +6,7 @@
       "reference": "https://github.com/matthiasmeissen/100-days-of-swift",
       "type": "practice",
       "category": "computation",
-      "tags": ["swift", "ios", "programming-language"],
+      "tags": ["swift"],
       "activities": [
         { "date": "2024-03-16" },
         { "date": "2024-03-17" },
@@ -37,7 +37,7 @@
       ],
       "type": "practice",
       "category": "computation",
-      "tags": ["writing", "text"],
+      "tags": ["writing"],
       "activities": [
         { "date": "2024-05-29" },
         { "date": "2024-05-30" },
@@ -174,7 +174,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["touchdesigner", "visual", "animation"],
+      "tags": ["touchdesigner", "visual"],
       "activities": [
         { "date": "2018-03-04" },
         { "date": "2018-03-05" },
@@ -984,7 +984,7 @@
       "reference": "https://github.com/matthiasmeissen/oxide",
       "type": "project",
       "category": "device",
-      "tags": ["rust", "raspberry-pi", "audio", "visual", "synthesis", "pcb", "enclosure"],
+      "tags": ["rust", "raspberry-pi", "audio", "visual", "synthesis", "pcb"],
       "activities": [
         { "date": "2025-08-30" },
         { "date": "2025-08-31" },
@@ -1041,7 +1041,7 @@
       "reference": "https://github.com/matthiasmeissen/comfy-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["comfyui", "ai-image", "visual", "learning"],
+      "tags": ["comfyui", "visual"],
       "activities": [
         { "date": "2025-06-09" },
         { "date": "2025-06-10" },
@@ -1062,7 +1062,7 @@
       "reference": "https://github.com/matthiasmeissen/c-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["c", "programming-language"],
+      "tags": ["c"],
       "activities": [
         { "date": "2025-03-29" },
         { "date": "2025-03-30" },
@@ -1202,7 +1202,7 @@
       "reference": "https://github.com/matthiasmeissen/cmajor-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["cmajor", "audio", "dsp", "programming-language"],
+      "tags": ["cmajor", "audio", "dsp"],
       "activities": [
         { "date": "2023-08-15" },
         { "date": "2023-08-16" },
@@ -1218,7 +1218,7 @@
       "reference": "https://github.com/matthiasmeissen/csound-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["csound", "audio", "dsp", "programming-language"],
+      "tags": ["csound", "audio", "dsp"],
       "activities": [
         { "date": "2023-09-05" },
         { "date": "2023-09-06" },
@@ -1234,7 +1234,7 @@
       "reference": "Physical",
       "type": "practice",
       "category": "making",
-      "tags": ["drawing", "marker", "a4", "visual"],
+      "tags": ["drawing", "visual"],
       "activities": [
         { "date": "2023-01-08" },
         { "date": "2023-01-15" },
@@ -1352,7 +1352,7 @@
       "reference": "Physical",
       "type": "practice",
       "category": "making",
-      "tags": ["drawing", "marker", "a2", "visual"],
+      "tags": ["drawing", "visual"],
       "activities": [
         { "date": "2025-01-19" },
         { "date": "2025-02-22" },
@@ -1421,7 +1421,7 @@
       "reference": "https://github.com/matthiasmeissen/electronics-playgrounds",
       "type": "practice",
       "category": "making",
-      "tags": ["electronics", "circuit"],
+      "tags": ["electronics"],
       "activities": [
         { "date": "2024-10-03" },
         { "date": "2024-10-04" },
@@ -1568,7 +1568,7 @@
       "reference": "https://github.com/matthiasmeissen/faust-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["faust", "audio", "dsp", "programming-language"],
+      "tags": ["faust", "audio", "dsp"],
       "activities": [
         { "date": "2025-01-18" },
         { "date": "2025-01-19" },
@@ -1648,7 +1648,7 @@
       ],
       "type": "practice",
       "category": "computation",
-      "tags": ["glsl", "shader", "visual", "programming-language"],
+      "tags": ["glsl", "visual"],
       "activities": [
         { "date": "2022-06-16" },
         { "date": "2022-06-17" },
@@ -1810,7 +1810,7 @@
       "reference": "Cloud",
       "type": "practice",
       "category": "making",
-      "tags": ["fusion-360", "cad", "object"],
+      "tags": ["fusion-360", "object"],
       "activities": [
         { "date": "2026-03-13" },
         { "date": "2026-03-14" },
@@ -1838,7 +1838,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["oculus-medium", "vr", "lettering", "visual", "3d"],
+      "tags": ["oculus-medium", "lettering", "visual"],
       "activities": [
         { "date": "2017-09-02" },
         { "date": "2017-09-03" },
@@ -1869,7 +1869,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["cinema-4d", "lettering", "visual", "3d"],
+      "tags": ["cinema-4d", "lettering", "visual"],
       "activities": [
         { "date": "2018-04-03" },
         { "date": "2018-04-04" },
@@ -2001,7 +2001,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["gravity-sketch", "blender", "visual", "3d"],
+      "tags": ["gravity-sketch", "blender", "visual"],
       "activities": [
         { "date": "2023-01-09" },
         { "date": "2023-01-10" },
@@ -2017,7 +2017,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "making",
-      "tags": ["houdini", "rhino", "grasshopper", "freecad", "3d-printing", "cad", "parametric", "object"],
+      "tags": ["houdini", "rhino", "grasshopper", "freecad", "3d-printing", "object"],
       "activities": [
         { "date": "2024-12-03" },
         { "date": "2024-12-04" },
@@ -2114,7 +2114,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["pixel-art", "drawing", "visual", "aseprite"],
+      "tags": ["drawing", "visual", "aseprite"],
       "activities": [
         { "date": "2025-01-28" },
         { "date": "2025-01-29" },
@@ -2137,7 +2137,7 @@
       "reference": "https://github.com/matthiasmeissen/plotter-playgrounds",
       "type": "practice",
       "category": "making",
-      "tags": ["plotter", "svg", "drawing", "visual"],
+      "tags": ["plotter", "drawing", "visual"],
       "activities": [
         { "date": "2025-05-22" }, 
         { "date": "2025-05-23" }
@@ -2149,7 +2149,7 @@
       "reference": "https://github.com/matthiasmeissen/rust-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["rust", "programming-language"],
+      "tags": ["rust"],
       "activities": [
         { "date": "2025-07-11" },
         { "date": "2025-07-12" },
@@ -2258,7 +2258,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["nomad-sculpt", "blender", "visual", "3d"],
+      "tags": ["nomad-sculpt", "blender", "visual"],
       "activities": [
         { "date": "2023-03-06" },
         { "date": "2023-03-07" },
@@ -2386,7 +2386,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["ableton", "audio", "music"],
+      "tags": ["ableton", "audio"],
       "activities": [
         { "date": "2024-02-11" },
         { "date": "2024-02-12" },
@@ -2433,7 +2433,7 @@
       "reference": "https://github.com/matthiasmeissen/three-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["three-js", "javascript", "visual", "3d"],
+      "tags": ["three-js", "javascript", "visual"],
       "activities": [
         { "date": "2022-05-26" },
         { "date": "2022-05-27" },
@@ -2542,7 +2542,7 @@
       "reference": "Dropbox",
       "type": "practice",
       "category": "computation",
-      "tags": ["unreal", "visual", "3d"],
+      "tags": ["unreal", "visual"],
       "activities": [
         { "date": "2023-12-12" },
         { "date": "2023-12-13" },
@@ -2601,7 +2601,7 @@
       "reference": "https://github.com/matthiasmeissen/vcv-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["vcv", "cpp", "audio", "modular", "synthesis"],
+      "tags": ["vcv", "cpp", "audio", "synthesis"],
       "activities": [
         { "date": "2025-03-15" }, 
         { "date": "2025-03-16" }
@@ -2613,7 +2613,7 @@
       "reference": "Dropbox",
       "type": "project",
       "category": "computation",
-      "tags": ["touchdesigner", "visual", "vj"],
+      "tags": ["touchdesigner", "visual"],
       "activities": [
         { "date": "2019-03-28" },
         { "date": "2019-03-29" },
@@ -2721,7 +2721,7 @@
       "reference": "https://github.com/matthiasmeissen/web-playgrounds",
       "type": "practice",
       "category": "computation",
-      "tags": ["javascript", "html", "css", "web"],
+      "tags": ["javascript"],
       "activities": [
         { "date": "2021-11-06" },
         { "date": "2021-11-07" },
