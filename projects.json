@@ -4,7 +4,9 @@
       "name": "100 Days of Swift",
       "description": "Learn the swift programming language",
       "reference": "https://github.com/matthiasmeissen/100-days-of-swift",
-      "tags": ["programming", "swift"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["swift", "ios", "programming-language"],
       "activities": [
         { "date": "2024-03-16" },
         { "date": "2024-03-17" },
@@ -33,7 +35,9 @@
         "https://github.com/matthiasmeissen/750-words",
         "https://github.com/matthiasmeissen/750-words-2"
       ],
-      "tags": ["writing"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["writing", "text"],
       "activities": [
         { "date": "2024-05-29" },
         { "date": "2024-05-30" },
@@ -166,9 +170,11 @@
     },
     "animation-series": {
       "name": "Animation Series",
-      "description": "Learn to make animations in TouchDesigner",
+      "description": "Create animations in TouchDesigner",
       "reference": "Dropbox",
-      "tags": ["touchdesigner", "animation"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["touchdesigner", "visual", "animation"],
       "activities": [
         { "date": "2018-03-04" },
         { "date": "2018-03-05" },
@@ -938,9 +944,11 @@
     },
     "audio-series": {
       "name": "Audio Series",
-      "description": "Learn to use make audiovisual things with unity",
+      "description": "Create audiovisual experiences with unity and hardware synthesizers",
       "reference": "Dropbox",
-      "tags": ["unity", "audiovisual", "synthesizer"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["unity", "audio", "visual", "synthesis"],
       "activities": [
         { "date": "2019-01-03" },
         { "date": "2019-01-13" },
@@ -974,7 +982,9 @@
       "name": "AV Synth",
       "description": "Build an audiovisual synthesizer in rust that runs on a raspberry pi",
       "reference": "https://github.com/matthiasmeissen/oxide",
-      "tags": ["rust", "audiovisual", "hardware"],
+      "type": "project",
+      "category": "device",
+      "tags": ["rust", "raspberry-pi", "audio", "visual", "synthesis", "pcb", "enclosure"],
       "activities": [
         { "date": "2025-08-30" },
         { "date": "2025-08-31" },
@@ -1029,7 +1039,9 @@
       "name": "Comfy Playgrounds",
       "description": "Learn how to use comfy ui and generate images",
       "reference": "https://github.com/matthiasmeissen/comfy-playgrounds",
-      "tags": ["ai", "comfy ui"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["comfyui", "ai-image", "visual", "learning"],
       "activities": [
         { "date": "2025-06-09" },
         { "date": "2025-06-10" },
@@ -1048,7 +1060,9 @@
       "name": "C Playgrounds",
       "description": "Learn the C programming language",
       "reference": "https://github.com/matthiasmeissen/c-playgrounds",
-      "tags": ["programming", "c"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["c", "programming-language"],
       "activities": [
         { "date": "2025-03-29" },
         { "date": "2025-03-30" },
@@ -1155,7 +1169,9 @@
       "name": "Clocked Modulator",
       "description": "Clocked modulation midi controller on a Raspberry Pi Pico 2, built in embedded Rust",
       "reference": "https://github.com/matthiasmeissen/clocked-modulator",
-      "tags": ["embedded", "rust", "rp2350", "audio", "midi"],
+      "type": "project",
+      "category": "device",
+      "tags": ["rust", "embassy", "embedded", "rp2350", "midi", "easyeda", "pcb"],
       "activities": [
         { "date": "2026-02-06" },
         { "date": "2026-02-07" },
@@ -1184,7 +1200,9 @@
       "name": "Cmajor Playgrounds",
       "description": "Learn how to use csound",
       "reference": "https://github.com/matthiasmeissen/cmajor-playgrounds",
-      "tags": ["programming", "cmajor", "audio"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["cmajor", "audio", "dsp", "programming-language"],
       "activities": [
         { "date": "2023-08-15" },
         { "date": "2023-08-16" },
@@ -1198,7 +1216,9 @@
       "name": "Csound Playgrounds",
       "description": "Learn to use csound",
       "reference": "https://github.com/matthiasmeissen/csound-playgrounds",
-      "tags": ["programming", "csound", "audio"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["csound", "audio", "dsp", "programming-language"],
       "activities": [
         { "date": "2023-09-05" },
         { "date": "2023-09-06" },
@@ -1212,7 +1232,9 @@
       "name": "Drawing A4 Series",
       "description": "Draw A4 images",
       "reference": "Physical",
-      "tags": ["drawing", "a4", "marker"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["drawing", "marker", "a4", "visual"],
       "activities": [
         { "date": "2023-01-08" },
         { "date": "2023-01-15" },
@@ -1328,7 +1350,9 @@
       "name": "Drawing A2 Series",
       "description": "Draw A2 images",
       "reference": "Physical",
-      "tags": ["drawing", "a2", "marker"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["drawing", "marker", "a2", "visual"],
       "activities": [
         { "date": "2025-01-19" },
         { "date": "2025-02-22" },
@@ -1348,7 +1372,9 @@
       "name": "Drawing Color Series",
       "description": "Draw color images",
       "reference": "Dropbox",
-      "tags": ["drawing", "digital", "marker", "procreate"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["drawing", "procreate", "visual"],
       "activities": [
         { "date": "2025-04-20" },
         { "date": "2025-04-21" },
@@ -1368,6 +1394,8 @@
       "name": "DSP Playground",
       "description": "Learning audio dsp",
       "reference": "https://github.com/matthiasmeissen/dsp-playground",
+      "type": "practice",
+      "category": "computation",
       "tags": ["rust", "dsp", "audio"],
       "activities": [
         { "date": "2026-03-03" },
@@ -1391,7 +1419,9 @@
       "name": "Electronics Playgrounds",
       "description": "Learn hardware electronics",
       "reference": "https://github.com/matthiasmeissen/electronics-playgrounds",
-      "tags": ["hardware", "electronics", "audio"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["electronics", "circuit"],
       "activities": [
         { "date": "2024-10-03" },
         { "date": "2024-10-04" },
@@ -1450,7 +1480,9 @@
       "name": "Embedded Rust Playgrounds",
       "description": "Learn rust for embedded devices",
       "reference": "https://github.com/matthiasmeissen/embedded-rust-playgrounds",
-      "tags": ["rust", "embedded", "hardware"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["rust", "embedded", "micro-bit", "electronics"],
       "activities": [
         { "date": "2025-11-01" },
         { "date": "2025-11-02" },
@@ -1534,7 +1566,9 @@
       "name": "FAUST Playgrounds",
       "description": "Learn the FAUST programming language",
       "reference": "https://github.com/matthiasmeissen/faust-playgrounds",
-      "tags": ["audio", "programming", "faust"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["faust", "audio", "dsp", "programming-language"],
       "activities": [
         { "date": "2025-01-18" },
         { "date": "2025-01-19" },
@@ -1573,7 +1607,9 @@
       "name": "Figma Plugins",
       "description": "Learn to build Figma plugins",
       "reference": "https://github.com/matthiasmeissen/figma-plugins",
-      "tags": ["design tools", "figma"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["figma", "typescript", "tooling"],
       "activities": [
         { "date": "2025-01-06" },
         { "date": "2025-01-07" },
@@ -1610,7 +1646,9 @@
         "https://github.com/matthiasmeissen/glsl-playgrounds",
         "https://github.com/matthiasmeissen/glsl-playgrounds-2"
       ],
-      "tags": ["shader", "glsl"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["glsl", "shader", "visual", "programming-language"],
       "activities": [
         { "date": "2022-06-16" },
         { "date": "2022-06-17" },
@@ -1756,7 +1794,9 @@
       "name": "Godot Playgrounds",
       "description": "Learn the Godot game engine",
       "reference": "https://github.com/matthiasmeissen/godot-playgrounds",
-      "tags": ["godot", "game engine"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["godot", "game"],
       "activities": [
         { "date": "2025-02-01" },
         { "date": "2025-02-15" },
@@ -1768,7 +1808,9 @@
       "name": "Learn Fusion 360",
       "description": "Learn the Fusion 360 CAD software",
       "reference": "Cloud",
-      "tags": ["product design", "CAD", "modeling"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["fusion-360", "cad", "object"],
       "activities": [
         { "date": "2026-03-13" },
         { "date": "2026-03-14" },
@@ -1794,7 +1836,9 @@
       "name": "Lettering Series",
       "description": "Learn to sculpt 3d letters",
       "reference": "Dropbox",
-      "tags": ["3d", "lettering", "vr", "oculus medium"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["oculus-medium", "vr", "lettering", "visual", "3d"],
       "activities": [
         { "date": "2017-09-02" },
         { "date": "2017-09-03" },
@@ -1823,7 +1867,9 @@
       "name": "Lettering Model Series",
       "description": "Learn to model 3d letters",
       "reference": "Dropbox",
-      "tags": ["3d", "lettering", "cinema 4d"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["cinema-4d", "lettering", "visual", "3d"],
       "activities": [
         { "date": "2018-04-03" },
         { "date": "2018-04-04" },
@@ -1844,7 +1890,9 @@
       "name": "Meta Sounds",
       "description": "Learn to make music with metasynth",
       "reference": "Dropbox",
-      "tags": ["audio", "metasynth"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["metasynth", "audio", "synthesis"],
       "activities": [
         { "date": "2022-01-02" },
         { "date": "2022-01-07" },
@@ -1951,7 +1999,9 @@
       "name": "Model Series",
       "description": "Learn to model and render 3d models",
       "reference": "Dropbox",
-      "tags": ["3d", "gravity sketch", "blender"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["gravity-sketch", "blender", "visual", "3d"],
       "activities": [
         { "date": "2023-01-09" },
         { "date": "2023-01-10" },
@@ -1965,7 +2015,9 @@
       "name": "Model Print Series",
       "description": "Learn 3D printing",
       "reference": "Dropbox",
-      "tags": ["3d printing", "cad", "parametric design"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["houdini", "rhino", "grasshopper", "freecad", "3d-printing", "cad", "parametric", "object"],
       "activities": [
         { "date": "2024-12-03" },
         { "date": "2024-12-04" },
@@ -2026,11 +2078,25 @@
         { "date": "2025-12-22" }
       ]
     },
+    "modular-sessions": {
+      "name": "Modular Sessions",
+      "description": "Learn to make music with a eurorack system",
+      "reference": "Physical",
+      "type": "practice",
+      "category": "making",
+      "tags": ["eurorack", "modular-synth", "audio", "synthesis"],
+      "activities": [
+        {"date": "2026-04-05"},
+        {"date": "2026-04-11"}
+      ]
+    },
     "openrndr-playgrounds": {
       "name": "Openrndr Playgrounds",
       "description": "Learn how to use openrndr",
       "reference": "https://github.com/matthiasmeissen/openrndr-playgrounds",
-      "tags": ["programming", "openrndr", "kotlin"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["openrndr", "kotlin", "visual"],
       "activities": [
         { "date": "2024-05-19" },
         { "date": "2024-05-20" },
@@ -2046,7 +2112,9 @@
       "name": "Pixel Series",
       "description": "Learn to make pixel art",
       "reference": "Dropbox",
-      "tags": ["drawing", "pixel art"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["pixel-art", "drawing", "visual", "aseprite"],
       "activities": [
         { "date": "2025-01-28" },
         { "date": "2025-01-29" },
@@ -2067,14 +2135,21 @@
       "name": "Plotter Playgrounds",
       "description": "Learn how to use a pen plotter",
       "reference": "https://github.com/matthiasmeissen/plotter-playgrounds",
-      "tags": ["svg", "pen plotter"],
-      "activities": [{ "date": "2025-05-22" }, { "date": "2025-05-23" }]
+      "type": "practice",
+      "category": "making",
+      "tags": ["plotter", "svg", "drawing", "visual"],
+      "activities": [
+        { "date": "2025-05-22" }, 
+        { "date": "2025-05-23" }
+      ]
     },
     "rust-playgrounds": {
       "name": "Rust Playgrounds",
       "description": "Learn the Rust programming language.",
       "reference": "https://github.com/matthiasmeissen/rust-playgrounds",
-      "tags": ["rust", "programming"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["rust", "programming-language"],
       "activities": [
         { "date": "2025-07-11" },
         { "date": "2025-07-12" },
@@ -2181,7 +2256,9 @@
       "name": "Sculpt Series",
       "description": "Learn to sculpt and render 3d models",
       "reference": "Dropbox",
-      "tags": ["3d", "nomad sculpt", "blender"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["nomad-sculpt", "blender", "visual", "3d"],
       "activities": [
         { "date": "2023-03-06" },
         { "date": "2023-03-07" },
@@ -2198,7 +2275,9 @@
       "name": "Sound Series",
       "description": "Learn to make music",
       "reference": "Dropbox",
-      "tags": ["audio", "digitone"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["digitone", "audio", "synthesis"],
       "activities": [
         { "date": "2021-03-23" },
         { "date": "2021-03-24" },
@@ -2305,7 +2384,9 @@
       "name": "Sound Sessions",
       "description": "Learn to make music",
       "reference": "Dropbox",
-      "tags": ["audio", "ableton"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["ableton", "audio", "music"],
       "activities": [
         { "date": "2024-02-11" },
         { "date": "2024-02-12" },
@@ -2326,7 +2407,9 @@
       "name": "Textile Playgrounds",
       "description": "Learn to work with textiles",
       "reference": "https://github.com/matthiasmeissen/textile-playgrounds",
-      "tags": ["textile", "sewing"],
+      "type": "practice",
+      "category": "making",
+      "tags": ["sewing", "textile"],
       "activities": [
         { "date": "2025-02-22" },
         { "date": "2025-02-23" },
@@ -2348,7 +2431,9 @@
       "name": "Three Playgrounds",
       "description": "Learn three.js",
       "reference": "https://github.com/matthiasmeissen/three-playgrounds",
-      "tags": ["programming", "threejs", "3d"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["three-js", "javascript", "visual", "3d"],
       "activities": [
         { "date": "2022-05-26" },
         { "date": "2022-05-27" },
@@ -2455,7 +2540,9 @@
       "name": "Unreal Series",
       "description": "Learn the Unreal game engine",
       "reference": "Dropbox",
-      "tags": ["game engine", "unreal"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["unreal", "visual", "3d"],
       "activities": [
         { "date": "2023-12-12" },
         { "date": "2023-12-13" },
@@ -2512,14 +2599,21 @@
       "name": "VCV Playgrounds",
       "description": "Learn to build vcv rack modules",
       "reference": "https://github.com/matthiasmeissen/vcv-playgrounds",
-      "tags": ["vcv rack", "modular synth", "audio"],
-      "activities": [{ "date": "2025-03-15" }, { "date": "2025-03-16" }]
+      "type": "practice",
+      "category": "computation",
+      "tags": ["vcv", "cpp", "audio", "modular", "synthesis"],
+      "activities": [
+        { "date": "2025-03-15" }, 
+        { "date": "2025-03-16" }
+      ]
     },
     "visual-system": {
       "name": "Visual System",
-      "description": "Learn to build a vj system",
+      "description": "Build a custom vj system",
       "reference": "Dropbox",
-      "tags": ["touchdesigner", "visuals"],
+      "type": "project",
+      "category": "computation",
+      "tags": ["touchdesigner", "visual", "vj"],
       "activities": [
         { "date": "2019-03-28" },
         { "date": "2019-03-29" },
@@ -2625,7 +2719,9 @@
       "name": "Web Playground",
       "description": "Learn web development",
       "reference": "https://github.com/matthiasmeissen/web-playgrounds",
-      "tags": ["programming", "web"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["javascript", "html", "css", "web"],
       "activities": [
         { "date": "2021-11-06" },
         { "date": "2021-11-07" },
@@ -2732,7 +2828,9 @@
       "name": "Webaudio Playgrounds",
       "description": "Learn Webaudio",
       "reference": "https://github.com/matthiasmeissen/webaudio-playgrounds",
-      "tags": ["webaudio", "faust"],
+      "type": "practice",
+      "category": "computation",
+      "tags": ["webaudio", "faust", "javascript", "audio", "dsp"],
       "activities": [
         { "date": "2023-03-24" },
         { "date": "2023-03-25" },
